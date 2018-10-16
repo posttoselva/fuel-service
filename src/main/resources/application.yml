@@ -3,7 +3,7 @@ server:
   #  context-path: /FuelApplication
   #port: 9000
   ssl:
-    enabled: false
+    enabled: true
     key-store: classpath:keystore.p12
     key-password: password
     key-store-password: password
