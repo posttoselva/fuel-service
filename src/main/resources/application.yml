@@ -15,7 +15,7 @@ spring:
     name: FuelApplication
   data:
     mongodb:
-      host: localhost
+      host: 10.128.22.230
       port: 27017
       username: FuelApplicationUser
       password: Password1
