@@ -1,9 +1,9 @@
 server:
-  servlet:
-    context-path: /
-  port: 8443
+  #servlet:
+    #context-path: /
+  #port: 8443
   ssl:
-    enabled: true
+    enabled: false
     key-store: classpath:keystore.p12
     key-password: password
     key-store-password: password
