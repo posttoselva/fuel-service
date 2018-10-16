@@ -1,6 +1,6 @@
 server:
-  #servlet:
-  #  context-path: /FuelApplication
+  servlet:
+    context-path: /
   port: 8443
   ssl:
     enabled: true
