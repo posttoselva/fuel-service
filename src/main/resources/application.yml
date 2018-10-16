@@ -1,0 +1,22 @@
+server:
+  servlet:
+    context-path: /FuelApplication
+  port: 9000
+  ssl:
+    enabled: false
+    key-store: classpath:keystore.p12
+    key-password: password
+    key-store-password: password
+    key-store-type: PKCS12
+    key-alias: tomcat
+
+spring:
+  application:
+    name: FuelApplication
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: FuelApplicationUser
+      password: Password1
+      database: FuelApplication
