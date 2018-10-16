@@ -1,7 +1,7 @@
 server:
   #servlet:
   #  context-path: /FuelApplication
-  #port: 9000
+  port: 8443
   ssl:
     enabled: true
     key-store: classpath:keystore.p12
