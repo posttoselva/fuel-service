@@ -15,7 +15,7 @@ spring:
     name: FuelApplication
   data:
     mongodb:
-      host: 10.128.22.230
+      host: mongodb.selva-demo-web.svc
       port: 27017
       username: FuelApplicationUser
       password: Password1
